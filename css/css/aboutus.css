@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.main-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-us {
+  width: 100%; /* Ensure container takes up full width */
+}
+
+.heading {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: brown;
+  text-align: center;
+}
+
+.about-us h4 {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.about-us img {
+  width: 45%; /* Adjust this percentage to change image size while maintaining equality */
+  margin-bottom: 20px;
+  object-fit: cover; /* Ensure images fit within their dimensions */
+}
+
+/* Optionally, you can fine-tune spacing depending on desired layout: */
+
+.about-us img:nth-child(odd) {
+  margin-right: 10px; /* Add margin to right side of odd-numbered images */
+}
+
+.about-us img:nth-child(even) {
+  margin-left: 10px; /* Add margin to left side of even-numbered images */
+}
