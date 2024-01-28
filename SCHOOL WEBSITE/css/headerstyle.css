@@ -1,0 +1,26 @@
+.header {
+	background: #0055a4;
+	padding: 6px;
+}
+.header marquee {
+	font-size: 20px;
+	color: #ffffff;
+	width: 80%;
+}
+/********* Design Logo and Menu section CSS Starts **********/
+.logo {
+	height:80px;
+}
+/*Menu Section Menu Section*/
+nav {
+	float: right;
+	padding:25px 0px;
+}
+nav a {
+	color: black;
+	text-decoration: none;
+	font-size:18px;
+	padding:2px 10px;
+	font-weight:500;
+}
+/********* Design Logo and Menu section CSS End **********/
